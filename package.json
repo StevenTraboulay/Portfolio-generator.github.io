@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-generator.github.io",
+  "version": "1.0.0",
+  "description": "portfolio generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenTraboulay/Portfolio-generator.github.io.git"
+  },
+  "author": "Steven Traboulay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StevenTraboulay/Portfolio-generator.github.io/issues"
+  },
+  "homepage": "https://github.com/StevenTraboulay/Portfolio-generator.github.io#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
