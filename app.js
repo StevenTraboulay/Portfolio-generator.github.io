@@ -1,10 +1,11 @@
-//this allows us access to the file system module
-const fs = require("fs");
+
+//allows us to import from generate-site
+const { writeFile, copyFile } = require('./utils/generate-site.js');
+
 //to pull the page template from the src
 const generatePage = require("./src/page-template.js");
 //this allows us to use the inquire module
 const inquirer = require("inquirer");
-
 
 const promptUser = () => {
   return inquirer.prompt([
